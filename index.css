@@ -21,14 +21,15 @@ header{
 }
 #top_menu{
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	right: 30px;
+	font-size: 19px;
 	color: black;
 }
 #top_menu a{color: black;}
 nav{
 	position: absolute;
-	bottom: 15px;
+	bottom: 10px;
 	left: 220px;
 	font-size: 16px;
 }
