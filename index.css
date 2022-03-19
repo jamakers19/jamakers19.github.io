@@ -3,6 +3,7 @@
 }
 ul{list-style: none;}
 a{text-decoration: none;}
+
 p{padding-left: 30px;}
 h2{padding-left: 10px;}
 h3{padding-left: 30px;}
@@ -21,15 +22,14 @@ header{
 }
 #top_menu{
 	position: absolute;
-	top: 10px;
+	top: 15px;
 	right: 30px;
-	font-size: 19px;
 	color: black;
 }
 #top_menu a{color: black;}
 nav{
 	position: absolute;
-	bottom: 10px;
+	bottom: 15px;
 	left: 220px;
 	font-size: 16px;
 }
@@ -39,14 +39,3 @@ nav li{
 }
 
 nav li a{color: black;}
-
-#main{
-	position:relative
-	top: 95px
-}
-#main strong{
-	position: absolute;
-	color: white;
-	bottom: 400px;
-	left: 50px;
-}
