@@ -9,8 +9,6 @@ h3{padding-left: 30px;}
 footer{padding: 30px;}
 
 header{
-	top: 0px;
-	left: 0px;
 	width: 800px;
 	height: 95px;
 	background-color: #FFFFFF;
@@ -24,9 +22,8 @@ header{
 #top_menu{
 	position: absolute;
 	top: 15px;
-	right: 90px;
+	right: 30px;
 	color: black;
-	font-size: 16px;
 }
 #top_menu a{color: black;}
 
