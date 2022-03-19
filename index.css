@@ -22,14 +22,14 @@ header{
 #top_menu{
 	position: absolute;
 	top: 20px;
-	right: 10px;
+	right: 40px;
 	color: black;
 }
 #top_menu a{color: black;}
 nav{
 	position: absolute;
 	bottom: 15px;
-	left: 220px;
+	left: 120px;
 	font-size: 16px;
 }
 nav li{
