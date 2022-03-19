@@ -3,8 +3,11 @@
 	<title>정관고 영메이커스</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=800">
-	<link rel="stylesheet" type"text/css" href="main.css">
-	<link rel="stylesheet" href="./index.css">
+    <!-- 1. 모바일용 css -->
+    <link rel="stylesheet" href="./index_mobile.css" media="(max-width:600px)">
+ 
+    <!-- 2. 데스크탑용 외부 스타일시트 적용 -->
+    <link rel="stylesheet" href="./index.css" media="(min-width:600px)">
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
@@ -14,11 +17,11 @@
 		<div id="page">
 			<header>
 				<div id="logo">
-					<a href="https://jeonggwan.hs.kr"><img src="./img/logo.png" width="50" height="50" alt=logo></a>
+					<a href="http://jeonggwan.hs.kr"><img src="./img/logo.png" width="55" height="55" alt=logo></a>
 				</div>
 				<div id="top_menu">
 					<a href="./index.html">HOME</a> | 
-					<a href="https://jeonggwan.hs.kr">SCHOOL</a>
+					<a href="http://jeonggwan.hs.kr">SCHOOL</a>
 				</div>
 				<nav>
 					<ul>
@@ -27,8 +30,8 @@
 						<li><a href="#actscroll">Activity</a></li>
 						<li><a href="#rulescroll">Rule</a></li>
 						<li><a href="#contscroll">Contact</a></li>
-					<ul>
-				<nav>	
+					</ul>
+				</nav>	
 			</header>
 			<article id="content">
 				<section id="main">

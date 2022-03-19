@@ -10,7 +10,7 @@ footer{padding: 30px;}
 
 header{
 	width: 800px;
-	height: 80px;
+	height: 95px;
 	background-color: #FFFFFF;
 	position: relative;
 }
@@ -29,7 +29,7 @@ header{
 nav{
 	position: absolute;
 	bottom: 15px;
-	left: 320px;
+	left: 220px;
 	font-size: 16px;
 }
 nav li{
