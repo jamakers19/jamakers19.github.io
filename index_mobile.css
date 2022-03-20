@@ -15,7 +15,6 @@ html, body {
 }
 header{
 	width: 100%;
-	height: auto;
 	background-color: #FFFFFF;
 	position: relative;
 }
@@ -27,15 +26,18 @@ header{
 }
 #content{
 	min-height: 500px;
-	height: auto!important;
+	height: auto;
 	_height: 500px;
 }
 #logo{
 	position: absolute;
-	top: 15px;
-	left: 15px;
+	padding-top: 7px;
+	padding-left: 15px;
+	z-index: 2;
 }
 #top_menu{
+	width: auto;
+	height:	30px;
 	position: absolute;
 	top: 15px;
 	right: 30px;
@@ -44,9 +46,12 @@ header{
 #top_menu a{color: black;font-size: 14px;}
 
 nav{
+	position:relative;
+	top: 70px;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 	margin-top: 10px;
+	z-index: 1;
 }
 nav li{
 	line-height: 3em;
