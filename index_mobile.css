@@ -3,16 +3,33 @@
 }
 ul{list-style: none;}
 a{text-decoration: none;}
-p{padding-left: 30px;}
-h2{padding-left: 10px;}
-h3{padding-left: 30px;}
+p{text-align: left;}
+h2{text-align: left;}
+h3{text-align: left;}
 footer{padding: 30px;}
 
 header{
-	width: 800px;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
 	height: 95px;
 	background-color: #FFFFFF;
 	position: relative;
+}
+#title{
+	padding-top:50px;
+}
+.text{
+	width: 1500px;
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	word-break: keep-all;
+}
+#content{
+	min-height: 625px;
+	height: auto!important;
+	_height: 625px;
 }
 #logo{
 	position: absolute;
