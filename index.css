@@ -8,6 +8,11 @@ h2{text-align: left;}
 h3{text-align: left;}
 footer{padding: 30px;}
 
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 header{
 	top: 0px;
 	left: 0px;
