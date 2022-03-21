@@ -20,13 +20,14 @@ header{
 }
 .text{
 	width: auto;
-	padding-top:100px;
 	padding-left:10px;
 	line-height:200%;
 	word-break: keep-all;
 }
 #content{
+	min-height: 500px;
 	height: auto;
+	_height: 500px;
 }
 #logo{
 	position: absolute;
