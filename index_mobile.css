@@ -26,9 +26,7 @@ header{
 	word-break: keep-all;
 }
 #content{
-	min-height: 500px;
 	height: auto;
-	_height: 500px;
 }
 #logo{
 	position: absolute;
