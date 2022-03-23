@@ -2,14 +2,14 @@
 <head>
 	<title>정관고 영메이커스</title>
 	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=800">
+	<meta id="resResponsiveViewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1, user-scalable=yes">
     <!-- 1. 모바일용 css -->
     <link rel="stylesheet" href="./index_mobile.css" media="(max-width:600px)">
  
     <!-- 2. 데스크탑용 외부 스타일시트 적용 -->
     <link rel="stylesheet" href="./index.css" media="(min-width:600px)">
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
 	</head>
@@ -17,13 +17,14 @@
 		<div id="page">
 			<header>
 				<div id="logo">
-					<a href="http://jeonggwan.hs.kr"><img src="./img/logo.png" width="55" height="55" alt=logo></a>
+					<a href="http://jeonggwan.hs.kr"><img src="./img/logo1.png" width="184" height="39" alt=logo></a>
 				</div>
-				<div id="top_menu">
+				<div id="top_menu" style="overflow:hiddlen; white-space:nowrap;">
 					<a href="./index.html">HOME</a> | 
 					<a href="http://jeonggwan.hs.kr">SCHOOL</a>
 					<a href="#"> </a>
 				</div>
+				<div style="clear:both"></div>
 				<nav>
 					<ul>
 						<li><a href="#infoscroll">Info</a></li>
@@ -33,52 +34,77 @@
 						<li><a href="#contscroll">Contact</a></li>
 						<li><a href="#"> </a></li>
 					</ul>
-				</nav>	
+				</nav>
 			</header>
 			<article id="content">
 				<section id="main">
-					<img src="./img/main.jpeg" alt="main img">
+					<img src="./img/main.jpg" alt="main img">
 				</section>
 			</article>
 			<br>
-			<div id='infoscroll' />	
-				<h2>Info</h2>
-				<br>
-					<p>정관고등학교의 메이커 동아리 영메이커스입니다. 3D펜, 3D 프린터, 레이저 커팅기, 아두이노 등의 장비가 갖추어져 있어	학생들이 상상력을 펼칠 수 있도록 도와줍니다. 영메이커스의 부실은 5층 무한상상실에 위치해 있습니다.</p>
-				<br>
-				<br>
-			<div id='faqscroll' />	
-				<h2>FAQ</h2>
-				<br>
-					<h3>무엇을 주로 하나요?</h3>
-					<p>영메이커스에서는 점심시간, 동아리시간에 부실인 무한상상실에서 3D프린터, 레이저 커팅기와 같은 장비들로 학생들이 일상에서는 상상속으로만 남겨놨던 아이디어나 작품을 직접 만들어보는 활동을 하고 있습니다. 2021년엔 대운제에도 작품을 출품하고자 하였으나 코로나 바이러스 사태의 악화로 취소되어 출품하지 못했습니다.<p>
-					<br>
-					<h3>내신에 도움이 되나요?</h3>
-					<p>영메이커스는 창체동아리이기 때문에 성실하게 활동한다면 생기부를 빵빵하게 채울 수 있습니다. 지망하는 과에 따라 다르겠지만 이공계 진학에 있어서는 상당히 도움이 되리라고 생각됩니다. 그리고 관련 과에 진학하기 이전 기본적인 배경지식을 쌓고 갈 수 있기 때문에 대학 생활에서도 도움이 될 것입니다.</p>
-					<br>
-					<h3>부원이 아니더라도 활동할 수 있나요?</h3>
-					<p>점심시간에는 무한상상실을 개방하여 부원 뿐 아니라 일반 학생들도 부원들과 함께 활동하거나, 자신만의 작품을 만들어 볼 수 있습니다. 다만 장비를 조작하는데 익숙하지 않으시다면 망설임 없이 상주하는 부원을 불러주시면 감사하겠습니다.</p>
-				<br>
-				<br>
-			<div id='actscroll' />	
-				<h2>Activity</h2>
-				<br>
-				<br>
-				<div id='rulescroll' />	
-				<h2>Rule</h2>
-				<br>
-				<br>
-				<div id='contscroll' />	
-				<h2>Contact</h2>
-				<br>
-					<p>동아리 관련해서는 담당 선생님이신 진향선 선생님을 찾아가주세요</p>
-				<br>
-				<br>
+				<div id="title" style= "font-size: 2em; font-weight: bold; text-align: center;">정관고등학교 영메이커스</div>
+				<div class="text">
+					
+					<div id='infoscroll' >	
+						<br>
+						<br>
+						<h2>Info</h2>
+						<br>
+							<p>정관고등학교의 메이커 동아리 영메이커스입니다. 3D펜, 3D 프린터, 레이저 커팅기, 아두이노 등의 장비가 갖추어져 있어 학생들이 상상력을 펼칠 수 있도록 도와줍니다. 영메이커스의 부실은 5층 무한상상실에 위치해 있습니다.</p>
+						<br>
+						<br>
+						<br>
+					</div>
+					<div id='faqscroll' >	
+						<h2>FAQ</h2>
+						<br>
+							<h3>무엇을 주로 하나요?</h3>
+							<p>영메이커스에서는 점심시간, 동아리시간에 부실인 무한상상실에서 3D프린터, 레이저 커팅기와 같은 장비들로 학생들이 일상에서는 상상속으로만 남겨놨던 아이디어나 작품을 직접 만들어보는 활동을 하고 있습니다. 2021년엔 대운제에도 작품을 출품하고자 하였으나 코로나 바이러스 사태의 악화로 취소되어 출품하지 못했습니다.<p>
+							<br>
+							<h3>내신에 도움이 되나요?</h3>
+							<p>영메이커스는 창체동아리이기 때문에 성실하게 활동한다면 생기부를 빵빵하게 채울 수 있습니다. 지망하는 과에 따라 다르겠지만 이공계 진학에 있어서는 상당히 도움이 되리라고 생각됩니다. 그리고 관련 과에 진학하기 이전 기본적인 배경지식을 쌓고 갈 수 있기 때문에 대학 생활에서도 도움이 될 것입니다.</p>
+							<br>
+							<h3>부원이 아니더라도 활동할 수 있나요?</h3>
+							<p>점심시간에는 무한상상실을 개방하여 부원 뿐 아니라 일반 학생들도 부원들과 함께 활동하거나, 자신만의 작품을 만들어 볼 수 있습니다. 다만 장비를 조작하는데 익숙하지 않으시다면 망설임 없이 상주하는 부원을 불러주시면 감사하겠습니다.</p>
+						<br>
+						<br>
+						<br>
+					</div>
+					<div id='actscroll' >	
+						<h2>Activity</h2>
+						<br>
+
+						<br>
+						<br>
+						<br>
+					</div>
+					<div id='rulescroll' >	
+						<h2>Rule</h2>
+						<br>
+							<h3>1.기기 사용법을 숙지한 후 사용하기</h3>
+							<p>무언가를 하고 싶은 의욕과 열정이 앞서 물어보지도, 사용설명서를 읽지도 않은 채로 기기를 다루는 경우가 있는데, 기기가 고장 날 수도 있고 사고의 위험이 있기도 합니다. 꼭 정확한 사용법대로 사용해주세요!</p>
+						<br>
+							<h3>2. 활동 후 자기자리 청소, 뒷정리하기</h3>
+							<p>여러 부품, 재료들이 많은 공간이기 때문에 제자리에 두지 않으면 찾기도 어렵고 금방 지저분해져 다음에 이용할 때 어려움이 있습니다.</p>
+						<br>
+							<h3>3. 끈기를 가지고 탐구하기</h3>
+							<p>본인의 아이디어를 구현해내기 위해서는 친구들과 힘을 합치기도 하고, 시행착오를 겪으며 공부를 해야 한다는 점을 반드시 기억해주었으면 좋겠습니다!</p>
+						<br>
+					</div>
+					<div id='contscroll' >	
+						<h2>Contact</h2>
+						<br>
+							<p>동아리 관련해서는 담당 선생님이신 진향선 선생님을 찾아가주세요.</p>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
 				<footer>
 				site: 정관고등학교 30827 최여준
 				<br>email: <a href="mailto:yeojun24@gmail.com">yeojun24@gmail.com</a>
 				</footer>
-
+			
 		</div>		
 	</body>
 </html>
